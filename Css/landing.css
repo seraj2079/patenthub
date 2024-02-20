@@ -1,0 +1,25 @@
+#explore-button:hover {
+    background-color: #f14242; /* Change the background color on hover */
+    color: rgb(210, 141, 55); /* Change text color on hover */
+    transition: background-color 5ms ease; /* Add a smooth transition */
+  }
+ /* For mobile devices */
+@media (max-width: 768px) {
+  .landing-container {
+    padding: 10px;
+  }
+  
+  .primary-heading {
+    font-size: 30px;
+  }
+
+  .home-section {
+    gap: 10px;
+  }
+
+  .home-text-section {
+    padding: 15px;
+  }
+
+  /* Adjust other styles for smaller screens */
+}
